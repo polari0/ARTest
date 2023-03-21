@@ -1,0 +1,56 @@
+{
+    "name": "ARInputs",
+    "maps": [
+        {
+            "name": "TouchInputs",
+            "id": "2a289fc9-59cb-4624-ad79-544968b93022",
+            "actions": [
+                {
+                    "name": "New action1",
+                    "type": "Button",
+                    "id": "7dec31aa-82a9-4843-8999-91e5e11a7d58",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "One Modifier",
+                    "id": "024308b0-463f-4f7f-b067-944dedca763c",
+                    "path": "OneModifier",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action1",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier",
+                    "id": "f9309358-c2ef-46c8-932b-2becb3e0a0f6",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action1",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "binding",
+                    "id": "b3581d4f-1fcd-4a67-9c7a-6b153b9f1e8e",
+                    "path": "<Touchscreen>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action1",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
